@@ -31,6 +31,7 @@ def test_get_event_data_from_raw_json_from_event_url():
     assert "eventHostPhoto" in result
     assert "start" in result
     assert "end" in result
+    assert "url" in result
 
 def test_get_event_data_from_raw_json_from_event_url_pystl():
     with open("tests/data/pystl_event_data.json") as fp:

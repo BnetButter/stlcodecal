@@ -68,5 +68,6 @@ def get_event_data_from_raw_json_from_event_url(data: dict) -> dict:
         "eventHostPhoto": event["eventHosts"][0]["memberPhoto"]["baseUrl"] + event["eventHosts"][0]["memberPhoto"]["id"],
         "start": event["dateTime"],
         "end": event["endTime"],
+        "url": event["eventUrl"],
     }
 

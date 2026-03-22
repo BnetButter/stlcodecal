@@ -132,6 +132,7 @@
                     title: eventName,
                     start: eventDetails.start,
                     end: eventDetails.end,
+                    url: eventDetails.url,
                   })
             }
           }
@@ -148,7 +149,13 @@
             datesSet: (info) => {
               headerEl.innerHTML = info.view.title
             },
-            events
+            events,
+            eventClick: (info) => {
+                  if (info.event.url) {
+                    window.location.href = info.event.url;
+                  }
+              
+            }
           });
 
           calendar.render();
