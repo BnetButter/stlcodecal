@@ -135,16 +135,14 @@
                   })
             }
           }
-
           console.log(events)
-
           const calendar = new FullCalendar.Calendar(calendarEl, {
             timeZone: 'America/Chicago',  // treat all times as UTC
-            initialView: 'dayGridMonth',
+            initialView: window.innerWidth < 768 ? 'listMonth' : 'dayGridMonth',
             height: "auto",
             headerToolbar: {
               left: 'prev,next today',
-              right: 'dayGridMonth,timeGridWeek',
+              right: 'dayGridMonth,timeGridWeek,listMonth',
             },
 
             datesSet: (info) => {
