@@ -139,6 +139,7 @@
           console.log(events)
 
           const calendar = new FullCalendar.Calendar(calendarEl, {
+            timeZone: 'America/Chicago',  // treat all times as UTC
             initialView: 'dayGridMonth',
             height: "auto",
             headerToolbar: {
