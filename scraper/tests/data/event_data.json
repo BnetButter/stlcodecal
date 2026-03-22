@@ -1,0 +1,969 @@
+{
+  "props": {
+    "pageProps": {
+      "isMobile": false,
+      "showMobileBanner": true,
+      "memberLocale": "en-US",
+      "localeMessages": {
+        "organizerUpgradeModal2.upgradeToTier": "Upgrade to {tier}",
+        "sendEmailModal.subject": "Subject",
+        "sendEmailModal.message": "Message",
+        "sendEmailModal.send": "Send",
+        "sendEmailModal.cancel": "Cancel",
+        "comparisonLikePaywall.continue": "Continue",
+        "a11y.skipToContent": "Skip to content",
+        "desktopHeader.homepage": "Homepage",
+        "desktopSearch.searchEvents": "Search events...",
+        "searchLocationTypeahead.placeholder": "Neighborhood, city or zip",
+        "searchLocationTypeahead.searchLocationByCityOrZip": "Search for location by city or zip code",
+        "seo.allEvents": "All events",
+        "seo.eventsIn": "Events in {name}",
+        "seo.topicsEvents": "{name} events",
+        "event.info.only1Host": "{HOST_1}",
+        "eventHome.hostedBy": "Hosted by {HOST_NAMES}",
+        "redesign.components.avatar.ariaLabel": "Photo of the user {memberName}",
+        "EventStickyFooter.shareButton.shareThisEvent": "Share this event",
+        "shareButton.eventShareTitle_v2": "Share",
+        "EventInfoCard.TimeInfo.durationFromDayToDay": "{FROM_DATE} to {END_DATE}",
+        "EventDetailsContainer.details": "Details",
+        "EventHome.relatedTopics": "Related topics",
+        "EventTags.eventsIn": "Events in {name}",
+        "event.descriptionEventAbuseReportLink_v2": "Report event",
+        "relatedEvents.findMoreEventsVariantV2": "You may also like",
+        "relatedEvents.seeAll": "See all",
+        "footer.meetupOnFacebook": "Meetup on Facebook",
+        "footer.meetupOnTwitter": "Meetup on Twitter",
+        "footer.meetupOnYoutube": "Meetup on YouTube",
+        "footer.meetupOnInstagram": "Instagram",
+        "footer.meetupOnTiktok": "TikTok",
+        "footer.thePeoplePlatform": "The <red>people</red> platform",
+        "footer.createYourOwnMeetupGroup": "Create your own Meetup group",
+        "footer.startNewGroup": "Start a new group",
+        "footer.yourAccount": "Your account",
+        "footer.signUp": "Sign up",
+        "footer.logIn": "Log in",
+        "footer.help": "Help",
+        "footer.discover": "Discover",
+        "footer.groups": "Groups",
+        "footer.events": "Events",
+        "footer.topics": "Topics",
+        "footer.cities": "Cities",
+        "footer.onlineEvents": "Online events",
+        "footer.localGuides": "Local guides",
+        "footer.makeFriendsLp": "Make friends",
+        "footer.sitemap": "Sitemap",
+        "footer.meetupText": "Meetup",
+        "footer.about": "About",
+        "footer.blog": "Blog",
+        "footer.meetupPro": "Meetup Pro",
+        "footer.careers": "Careers",
+        "footer.apps": "Apps",
+        "footer.podcast": "Podcast",
+        "footer.followUs": "Follow us",
+        "footer.getTheApp": "Get the app",
+        "mobileDownloadButtons.downloadFromGooglePlay": "Download app from Google Play",
+        "mobileDownloadButtons.downloadFromAppStore": "Download app from App Store",
+        "mobileDownloadButtons.downloadOnStore": "Download on",
+        "footer.meetupYear2": "{YEAR} Bending Spoons US Inc.",
+        "footer.termsOfService": "Terms of service",
+        "footer.privacyPolicy": "Privacy policy",
+        "footer.cookiePolicy": "Cookie policy",
+        "footer.licenseAttribution": "License attribution",
+        "footer.madeWithLoveBy": "Made with {love} by"
+      },
+      "country": "US",
+      "eventId": "313181878",
+      "groupNameLowerCase": "bourbonfridays",
+      "event": {
+        "__typename": "Event",
+        "id": "313181878",
+        "token": "313181878",
+        "title": "Bourbon Friday // Networking & Bourbon Tasting",
+        "description": "Join us at Techartista Central West End on Friday, April 17th, for Bourbon Friday, a weekly social gathering celebrating the St. Louis startup scene. Each week, we come together to share our stories, struggles, experiences, and, yes, a little bit of bourbon.\n\n**Mingle & Tastings // 4-7pm**\n\n**Parking & Transportation**\nStreet parking is available for Bourbon Friday.\nYou may also park in the church parking lot across the street from TechArtista.\nWe are also only a 1-mile Walk from [Central West End Metro Station](https://www.metrostlouis.org/metrolink-station/central-west-end-station/).\n\n**================================**\n\n**18+ to attend without a parent or legal guardian.**\n**21+ and up to drink ... obviously.**\n**Please Drink Responsibly.**\n\n*Underage drinking will result in removal from the event and a permanent ban from all future events.*",
+        "eventUrl": "https://www.meetup.com/bourbonfridays/events/313181878/",
+        "status": "ACTIVE",
+        "eventType": "PHYSICAL",
+        "featuredEventPhoto": {
+          "__typename": "PhotoInfo",
+          "id": "529859743",
+          "source": "https://secure.meetupstatic.com/photos/event/e/9/5/f/highres_529859743.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/"
+        },
+        "displayPhoto": {
+          "__typename": "PhotoInfo",
+          "id": "529859743",
+          "source": "https://secure.meetupstatic.com/photos/event/e/9/5/f/highres_529859743.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/"
+        },
+        "eventHosts": [
+          {
+            "__typename": "EventHost",
+            "memberId": "259733000",
+            "id": "259733000",
+            "name": "Erik Lutenegger",
+            "member": {
+              "__typename": "Member",
+              "isSuperOrganizer": false
+            },
+            "memberPhoto": {
+              "__typename": "PhotoInfo",
+              "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+              "id": "313572138"
+            }
+          }
+        ],
+        "dateTime": "2026-04-17T16:00:00-05:00",
+        "endTime": "2026-04-17T19:00:00-05:00",
+        "isFeatured": false,
+        "venue": {
+          "__typename": "Venue",
+          "id": "26093467",
+          "name": "TechArtista CWE",
+          "address": "4818 Washington Ave",
+          "city": "St. Louis",
+          "state": "MO",
+          "country": "us",
+          "lat": 38.65009,
+          "lng": -90.260185
+        },
+        "maxTickets": 40,
+        "series": null,
+        "rsvps": {
+          "__typename": "RsvpConnection",
+          "totalCount": 0
+        },
+        "waitingCount": {
+          "__typename": "RsvpConnection",
+          "totalCount": 0
+        },
+        "goingCount": {
+          "__typename": "RsvpConnection",
+          "totalCount": 1
+        },
+        "waitlistMode": "AUTO",
+        "guestsAllowed": true,
+        "numberOfAllowedGuests": 3,
+        "proCompleteRsvp": null,
+        "topics": {
+          "__typename": "TopicsConnection",
+          "edges": [
+            {
+              "__typename": "TopicEdge",
+              "node": {
+                "__typename": "Topic",
+                "id": "10485",
+                "name": "Community Organizations",
+                "urlkey": "community-organizations"
+              }
+            },
+            {
+              "__typename": "TopicEdge",
+              "node": {
+                "__typename": "Topic",
+                "id": "17390",
+                "name": "Entrepreneurship",
+                "urlkey": "entrepreneurship"
+              }
+            },
+            {
+              "__typename": "TopicEdge",
+              "node": {
+                "__typename": "Topic",
+                "id": "18865",
+                "name": "Technology",
+                "urlkey": "technology"
+              }
+            },
+            {
+              "__typename": "TopicEdge",
+              "node": {
+                "__typename": "Topic",
+                "id": "3644",
+                "name": "Bourbon",
+                "urlkey": "bourbon"
+              }
+            },
+            {
+              "__typename": "TopicEdge",
+              "node": {
+                "__typename": "Topic",
+                "id": "10035",
+                "name": "Whiskey",
+                "urlkey": "whiskey"
+              }
+            }
+          ]
+        },
+        "rsvpSettings": {
+          "__typename": "RsvpOpenSettings",
+          "rsvpOpenTime": null,
+          "rsvpCloseTime": null
+        },
+        "covidPrecautions": {
+          "__typename": "CovidPrecautions",
+          "masks": null,
+          "vaccinations": null,
+          "details": null,
+          "venueType": null
+        },
+        "isNetworkEvent": false,
+        "hosts": [
+          {
+            "__typename": "EventHost",
+            "memberId": "259733000",
+            "id": "259733000",
+            "name": "Erik Lutenegger",
+            "member": {
+              "__typename": "Member",
+              "isSuperOrganizer": false
+            },
+            "memberPhoto": {
+              "__typename": "PhotoInfo",
+              "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+              "id": "313572138"
+            }
+          }
+        ],
+        "feeSettings": null,
+        "networkEvent": null,
+        "speakerDetails": null,
+        "socialProofInsights": {
+          "__typename": "SocialProofInsights",
+          "isTrendingEvent": false,
+          "totalInterestedUsers": 27,
+          "interestedUsersSample": [
+            {
+              "__typename": "Member",
+              "id": "304864776",
+              "name": "Bob Cymber",
+              "memberPhoto": {
+                "__typename": "PhotoInfo",
+                "id": "302525973",
+                "source": "https://secure.meetupstatic.com/photos/member/1/7/5/5/highres_302525973.jpeg",
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+              }
+            },
+            {
+              "__typename": "Member",
+              "id": "253108298",
+              "name": "Jason Lewis",
+              "memberPhoto": {
+                "__typename": "PhotoInfo",
+                "id": "308238447",
+                "source": "https://secure.meetupstatic.com/photos/member/4/8/0/f/highres_308238447.jpeg",
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+              }
+            },
+            {
+              "__typename": "Member",
+              "id": "184937936",
+              "name": "Nicole Lubanowski",
+              "memberPhoto": {
+                "__typename": "PhotoInfo",
+                "id": "259951475",
+                "source": "https://secure.meetupstatic.com/photos/member/7/a/f/3/highres_259951475.jpeg",
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+              }
+            },
+            {
+              "__typename": "Member",
+              "id": "9857941",
+              "name": "Chris",
+              "memberPhoto": {
+                "__typename": "PhotoInfo",
+                "id": "20004381",
+                "source": "https://secure.meetupstatic.com/photos/member/5/f/3/d/highres_20004381.jpeg",
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+              }
+            },
+            {
+              "__typename": "Member",
+              "id": "371605935",
+              "name": "Cara LaGrow",
+              "memberPhoto": {
+                "__typename": "PhotoInfo",
+                "id": "313745684",
+                "source": "https://secure.meetupstatic.com/photos/member/1/6/3/4/highres_313745684.jpeg",
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+              }
+            },
+            {
+              "__typename": "Member",
+              "id": "374265980",
+              "name": "Emily Hemingway",
+              "memberPhoto": {
+                "__typename": "PhotoInfo",
+                "id": "322213655",
+                "source": "https://secure.meetupstatic.com/photos/member/3/5/5/7/highres_322213655.jpeg",
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+              }
+            },
+            {
+              "__typename": "Member",
+              "id": "375940632",
+              "name": "Nick Haskett",
+              "memberPhoto": {
+                "__typename": "PhotoInfo",
+                "id": "313196900",
+                "source": "https://secure.meetupstatic.com/photos/member/d/e/4/4/highres_313196900.jpeg",
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+              }
+            }
+          ]
+        },
+        "group": {
+          "__typename": "Group",
+          "id": "36710252",
+          "name": "Bourbon Friday",
+          "isPrivate": false,
+          "timezone": "America/Chicago",
+          "link": "https://www.meetup.com/bourbonfridays",
+          "joinMode": "OPEN",
+          "topicCategory": {
+            "__typename": "TopicCategory",
+            "id": "652",
+            "name": "Social Activities",
+            "urlkey": "social-activities"
+          },
+          "topics": [
+            {
+              "__typename": "Topic",
+              "id": "3644",
+              "urlkey": "bourbon",
+              "name": "Bourbon"
+            },
+            {
+              "__typename": "Topic",
+              "id": "10035",
+              "urlkey": "whiskey",
+              "name": "Whiskey"
+            },
+            {
+              "__typename": "Topic",
+              "id": "10485",
+              "urlkey": "community-organizations",
+              "name": "Community Organizations"
+            },
+            {
+              "__typename": "Topic",
+              "id": "17390",
+              "urlkey": "entrepreneurship",
+              "name": "Entrepreneurship"
+            },
+            {
+              "__typename": "Topic",
+              "id": "18865",
+              "urlkey": "technology",
+              "name": "Technology"
+            },
+            {
+              "__typename": "Topic",
+              "id": "19303",
+              "urlkey": "entrepreneur-networking",
+              "name": "Entrepreneur Networking"
+            },
+            {
+              "__typename": "Topic",
+              "id": "25899",
+              "urlkey": "community-building",
+              "name": "Community Building"
+            },
+            {
+              "__typename": "Topic",
+              "id": "26643",
+              "urlkey": "social-entrepreneurship",
+              "name": "Social Entrepreneurship"
+            },
+            {
+              "__typename": "Topic",
+              "id": "29517",
+              "urlkey": "local-activities",
+              "name": "Local Activities"
+            },
+            {
+              "__typename": "Topic",
+              "id": "30609",
+              "urlkey": "startup-businesses",
+              "name": "Startup Businesses"
+            },
+            {
+              "__typename": "Topic",
+              "id": "34088",
+              "urlkey": "nonprofit",
+              "name": "Nonprofit"
+            },
+            {
+              "__typename": "Topic",
+              "id": "108403",
+              "urlkey": "technology-startups",
+              "name": "Technology Startups"
+            },
+            {
+              "__typename": "Topic",
+              "id": "139638",
+              "urlkey": "changemakers",
+              "name": "Changemakers"
+            },
+            {
+              "__typename": "Topic",
+              "id": "246861",
+              "urlkey": "whiskey-tasting",
+              "name": "Whiskey Tasting"
+            },
+            {
+              "__typename": "Topic",
+              "id": "1239522",
+              "urlkey": "happy-hour",
+              "name": "Happy Hour"
+            }
+          ],
+          "urlname": "bourbonfridays",
+          "country": "us",
+          "state": "MO",
+          "city": "Saint Louis",
+          "needsPhoto": null,
+          "proNetwork": null,
+          "featuredEvent": null,
+          "stats": {
+            "__typename": "GroupStats",
+            "memberCounts": {
+              "__typename": "GroupMemberCounts",
+              "all": 528
+            }
+          },
+          "needsQuestions": null,
+          "duesSettings": null,
+          "questions": [],
+          "sponsors": {
+            "__typename": "ProGroupSponsorsConnection",
+            "edges": []
+          },
+          "groupPhoto": {
+            "__typename": "PhotoInfo",
+            "id": "509245978",
+            "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+            "source": "https://secure.meetupstatic.com/photos/event/6/5/7/a/highres_509245978.jpeg"
+          },
+          "status": "PAID",
+          "isInCumulativeImpactTreatment": false
+        },
+        "sponsoredUntil": null,
+        "komootUrl": null,
+        "timezone": "America/Chicago",
+        "waiting": 0,
+        "timeStatus": "UPCOMING",
+        "host": {
+          "__typename": "EventHost",
+          "memberId": "259733000",
+          "id": "259733000",
+          "name": "Erik Lutenegger",
+          "member": {
+            "__typename": "Member",
+            "isSuperOrganizer": false
+          },
+          "memberPhoto": {
+            "__typename": "PhotoInfo",
+            "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+            "id": "313572138"
+          }
+        },
+        "currency": "USD"
+      },
+      "__APOLLO_STATE__": {
+        "PhotoInfo:529859743": {
+          "__typename": "PhotoInfo",
+          "id": "529859743",
+          "highResUrl": "https://secure.meetupstatic.com/photos/event/e/9/5/f/highres_529859743.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/"
+        },
+        "PhotoInfo:313572138": {
+          "__typename": "PhotoInfo",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+          "id": "313572138"
+        },
+        "EventHost:259733000": {
+          "__typename": "EventHost",
+          "memberId": "259733000",
+          "name": "Erik Lutenegger",
+          "member": {
+            "__typename": "Member",
+            "isSuperOrganizer": false
+          },
+          "memberPhoto": {
+            "__ref": "PhotoInfo:313572138"
+          },
+          "id": "259733000"
+        },
+        "Venue:26093467": {
+          "__typename": "Venue",
+          "id": "26093467",
+          "name": "TechArtista CWE",
+          "address": "4818 Washington Ave",
+          "city": "St. Louis",
+          "state": "MO",
+          "country": "us",
+          "lat": 38.65009,
+          "lon": -90.260185
+        },
+        "Topic:10485": {
+          "__typename": "Topic",
+          "id": "10485",
+          "name": "Community Organizations",
+          "urlkey": "community-organizations"
+        },
+        "Topic:17390": {
+          "__typename": "Topic",
+          "id": "17390",
+          "name": "Entrepreneurship",
+          "urlkey": "entrepreneurship"
+        },
+        "Topic:18865": {
+          "__typename": "Topic",
+          "id": "18865",
+          "name": "Technology",
+          "urlkey": "technology"
+        },
+        "Topic:3644": {
+          "__typename": "Topic",
+          "id": "3644",
+          "name": "Bourbon",
+          "urlkey": "bourbon"
+        },
+        "Topic:10035": {
+          "__typename": "Topic",
+          "id": "10035",
+          "name": "Whiskey",
+          "urlkey": "whiskey"
+        },
+        "PhotoInfo:302525973": {
+          "__typename": "PhotoInfo",
+          "id": "302525973",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/1/7/5/5/highres_302525973.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+        },
+        "Member:304864776": {
+          "__typename": "Member",
+          "id": "304864776",
+          "name": "Bob Cymber",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:302525973"
+          }
+        },
+        "PhotoInfo:308238447": {
+          "__typename": "PhotoInfo",
+          "id": "308238447",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/4/8/0/f/highres_308238447.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+        },
+        "Member:253108298": {
+          "__typename": "Member",
+          "id": "253108298",
+          "name": "Jason Lewis",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:308238447"
+          }
+        },
+        "PhotoInfo:259951475": {
+          "__typename": "PhotoInfo",
+          "id": "259951475",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/7/a/f/3/highres_259951475.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+        },
+        "Member:184937936": {
+          "__typename": "Member",
+          "id": "184937936",
+          "name": "Nicole Lubanowski",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:259951475"
+          }
+        },
+        "PhotoInfo:20004381": {
+          "__typename": "PhotoInfo",
+          "id": "20004381",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/5/f/3/d/highres_20004381.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+        },
+        "Member:9857941": {
+          "__typename": "Member",
+          "id": "9857941",
+          "name": "Chris",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:20004381"
+          }
+        },
+        "PhotoInfo:313745684": {
+          "__typename": "PhotoInfo",
+          "id": "313745684",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/1/6/3/4/highres_313745684.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+        },
+        "Member:371605935": {
+          "__typename": "Member",
+          "id": "371605935",
+          "name": "Cara LaGrow",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:313745684"
+          }
+        },
+        "PhotoInfo:322213655": {
+          "__typename": "PhotoInfo",
+          "id": "322213655",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/3/5/5/7/highres_322213655.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+        },
+        "Member:374265980": {
+          "__typename": "Member",
+          "id": "374265980",
+          "name": "Emily Hemingway",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:322213655"
+          }
+        },
+        "PhotoInfo:313196900": {
+          "__typename": "PhotoInfo",
+          "id": "313196900",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/d/e/4/4/highres_313196900.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+        },
+        "Member:375940632": {
+          "__typename": "Member",
+          "id": "375940632",
+          "name": "Nick Haskett",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:313196900"
+          }
+        },
+        "TopicCategory:652": {
+          "__typename": "TopicCategory",
+          "id": "652",
+          "name": "Social Activities",
+          "urlkey": "social-activities"
+        },
+        "Topic:19303": {
+          "__typename": "Topic",
+          "id": "19303",
+          "urlkey": "entrepreneur-networking",
+          "name": "Entrepreneur Networking"
+        },
+        "Topic:25899": {
+          "__typename": "Topic",
+          "id": "25899",
+          "urlkey": "community-building",
+          "name": "Community Building"
+        },
+        "Topic:26643": {
+          "__typename": "Topic",
+          "id": "26643",
+          "urlkey": "social-entrepreneurship",
+          "name": "Social Entrepreneurship"
+        },
+        "Topic:29517": {
+          "__typename": "Topic",
+          "id": "29517",
+          "urlkey": "local-activities",
+          "name": "Local Activities"
+        },
+        "Topic:30609": {
+          "__typename": "Topic",
+          "id": "30609",
+          "urlkey": "startup-businesses",
+          "name": "Startup Businesses"
+        },
+        "Topic:34088": {
+          "__typename": "Topic",
+          "id": "34088",
+          "urlkey": "nonprofit",
+          "name": "Nonprofit"
+        },
+        "Topic:108403": {
+          "__typename": "Topic",
+          "id": "108403",
+          "urlkey": "technology-startups",
+          "name": "Technology Startups"
+        },
+        "Topic:139638": {
+          "__typename": "Topic",
+          "id": "139638",
+          "urlkey": "changemakers",
+          "name": "Changemakers"
+        },
+        "Topic:246861": {
+          "__typename": "Topic",
+          "id": "246861",
+          "urlkey": "whiskey-tasting",
+          "name": "Whiskey Tasting"
+        },
+        "Topic:1239522": {
+          "__typename": "Topic",
+          "id": "1239522",
+          "urlkey": "happy-hour",
+          "name": "Happy Hour"
+        },
+        "PhotoInfo:509245978": {
+          "__typename": "PhotoInfo",
+          "id": "509245978",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+          "highResUrl": "https://secure.meetupstatic.com/photos/event/6/5/7/a/highres_509245978.jpeg"
+        },
+        "Group:36710252": {
+          "__typename": "Group",
+          "id": "36710252",
+          "name": "Bourbon Friday",
+          "isPrivate": false,
+          "timezone": "America/Chicago",
+          "link": "https://www.meetup.com/bourbonfridays",
+          "joinMode": "OPEN",
+          "topicCategory": {
+            "__ref": "TopicCategory:652"
+          },
+          "activeTopics": [
+            {
+              "__ref": "Topic:3644"
+            },
+            {
+              "__ref": "Topic:10035"
+            },
+            {
+              "__ref": "Topic:10485"
+            },
+            {
+              "__ref": "Topic:17390"
+            },
+            {
+              "__ref": "Topic:18865"
+            },
+            {
+              "__ref": "Topic:19303"
+            },
+            {
+              "__ref": "Topic:25899"
+            },
+            {
+              "__ref": "Topic:26643"
+            },
+            {
+              "__ref": "Topic:29517"
+            },
+            {
+              "__ref": "Topic:30609"
+            },
+            {
+              "__ref": "Topic:34088"
+            },
+            {
+              "__ref": "Topic:108403"
+            },
+            {
+              "__ref": "Topic:139638"
+            },
+            {
+              "__ref": "Topic:246861"
+            },
+            {
+              "__ref": "Topic:1239522"
+            }
+          ],
+          "urlname": "bourbonfridays",
+          "country": "us",
+          "state": "MO",
+          "city": "Saint Louis",
+          "needsPhoto": null,
+          "proNetwork": null,
+          "featuredEvent": null,
+          "stats": {
+            "__typename": "GroupStats",
+            "memberCounts": {
+              "__typename": "GroupMemberCounts",
+              "all": 528
+            }
+          },
+          "needsQuestions": null,
+          "duesSettings": null,
+          "questions": [],
+          "sponsors": {
+            "__typename": "ProGroupSponsorsConnection",
+            "edges": []
+          },
+          "keyGroupPhoto": {
+            "__ref": "PhotoInfo:509245978"
+          },
+          "status": "PAID",
+          "isInCumulativeImpactTreatment": false
+        },
+        "Event:313181878": {
+          "__typename": "Event",
+          "id": "313181878",
+          "token": "313181878",
+          "title": "Bourbon Friday // Networking & Bourbon Tasting",
+          "description": "Join us at Techartista Central West End on Friday, April 17th, for Bourbon Friday, a weekly social gathering celebrating the St. Louis startup scene. Each week, we come together to share our stories, struggles, experiences, and, yes, a little bit of bourbon.\n\n**Mingle & Tastings // 4-7pm**\n\n**Parking & Transportation**\nStreet parking is available for Bourbon Friday.\nYou may also park in the church parking lot across the street from TechArtista.\nWe are also only a 1-mile Walk from [Central West End Metro Station](https://www.metrostlouis.org/metrolink-station/central-west-end-station/).\n\n**================================**\n\n**18+ to attend without a parent or legal guardian.**\n**21+ and up to drink ... obviously.**\n**Please Drink Responsibly.**\n\n*Underage drinking will result in removal from the event and a permanent ban from all future events.*",
+          "eventUrl": "https://www.meetup.com/bourbonfridays/events/313181878/",
+          "status": "ACTIVE",
+          "eventType": "PHYSICAL",
+          "featuredEventPhoto": {
+            "__ref": "PhotoInfo:529859743"
+          },
+          "displayPhoto": {
+            "__ref": "PhotoInfo:529859743"
+          },
+          "eventHosts": [
+            {
+              "__ref": "EventHost:259733000"
+            }
+          ],
+          "dateTime": "2026-04-17T16:00:00-05:00",
+          "endTime": "2026-04-17T19:00:00-05:00",
+          "isFeatured": false,
+          "venue": {
+            "__ref": "Venue:26093467"
+          },
+          "maxTickets": 40,
+          "series": null,
+          "rsvps({\"filter\":{\"rsvpStatus\":[\"WAITLIST\"]}})": {
+            "__typename": "RsvpConnection",
+            "totalCount": 0
+          },
+          "rsvps({\"filter\":{\"rsvpStatus\":[\"YES\"]}})": {
+            "__typename": "RsvpConnection",
+            "totalCount": 1
+          },
+          "waitlistMode": "AUTO",
+          "guestsAllowed": true,
+          "numberOfAllowedGuests": 3,
+          "proCompleteRsvp": null,
+          "topics": {
+            "__typename": "TopicsConnection",
+            "edges": [
+              {
+                "__typename": "TopicEdge",
+                "node": {
+                  "__ref": "Topic:10485"
+                }
+              },
+              {
+                "__typename": "TopicEdge",
+                "node": {
+                  "__ref": "Topic:17390"
+                }
+              },
+              {
+                "__typename": "TopicEdge",
+                "node": {
+                  "__ref": "Topic:18865"
+                }
+              },
+              {
+                "__typename": "TopicEdge",
+                "node": {
+                  "__ref": "Topic:3644"
+                }
+              },
+              {
+                "__typename": "TopicEdge",
+                "node": {
+                  "__ref": "Topic:10035"
+                }
+              }
+            ]
+          },
+          "rsvpSettings": {
+            "__typename": "RsvpOpenSettings",
+            "rsvpOpenTime": null,
+            "rsvpCloseTime": null
+          },
+          "covidPrecautions": {
+            "__typename": "CovidPrecautions",
+            "masks": null,
+            "vaccinations": null,
+            "details": null,
+            "venueType": null
+          },
+          "isNetworkEvent": false,
+          "feeSettings": null,
+          "networkEvent": null,
+          "speakerDetails": null,
+          "socialProofInsights": {
+            "__typename": "SocialProofInsights",
+            "isTrendingEvent": false,
+            "totalInterestedUsers": 27,
+            "interestedUsersSample": [
+              {
+                "__ref": "Member:304864776"
+              },
+              {
+                "__ref": "Member:253108298"
+              },
+              {
+                "__ref": "Member:184937936"
+              },
+              {
+                "__ref": "Member:9857941"
+              },
+              {
+                "__ref": "Member:371605935"
+              },
+              {
+                "__ref": "Member:374265980"
+              },
+              {
+                "__ref": "Member:375940632"
+              }
+            ]
+          },
+          "group": {
+            "__ref": "Group:36710252"
+          },
+          "sponsoredUntil": null,
+          "komootUrl": null
+        },
+        "ROOT_QUERY": {
+          "__typename": "Query",
+          "event({\"id\":\"313181878\"})": {
+            "__ref": "Event:313181878"
+          }
+        }
+      },
+      "_sentryTraceData": "e889866801015530e2c52a02af335cb2-f4a3d1fb5244db63-0",
+      "_sentryBaggage": "sentry-environment=production,sentry-release=fcd87fef20a2e1e6a8a4ba835293c26af1bf0bb1,sentry-public_key=5d12cd2317664353456ab4c40d079af2,sentry-trace_id=e889866801015530e2c52a02af335cb2,sentry-org_id=6787,sentry-sampled=false,sentry-sample_rand=0.3975140043570078,sentry-sample_rate=0.1"
+    },
+    "__N_SSP": true
+  },
+  "page": "/[slug]/events/[eventId]",
+  "query": {
+    "slug": "bourbonfridays",
+    "eventId": "313181878"
+  },
+  "buildId": "fcd87fef20a2e1e6a8a4ba835293c26af1bf0bb1",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "locale": "en-US",
+  "locales": [
+    "en-US",
+    "en-AU",
+    "de",
+    "de-DE",
+    "es",
+    "es-ES",
+    "fr",
+    "fr-FR",
+    "it",
+    "it-IT",
+    "ja",
+    "ja-JP",
+    "ko",
+    "ko-KR",
+    "nl",
+    "nl-NL",
+    "pl",
+    "pl-PL",
+    "pt",
+    "pt-BR",
+    "ru",
+    "ru-RU",
+    "tr",
+    "tr-TR",
+    "th-TH"
+  ],
+  "defaultLocale": "en-US",
+  "scriptLoader": []
+}

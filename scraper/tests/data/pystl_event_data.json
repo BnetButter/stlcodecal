@@ -1,0 +1,794 @@
+{
+  "props": {
+    "pageProps": {
+      "isMobile": false,
+      "showMobileBanner": true,
+      "memberLocale": "en-US",
+      "localeMessages": {
+        "organizerUpgradeModal2.upgradeToTier": "Upgrade to {tier}",
+        "sendEmailModal.subject": "Subject",
+        "sendEmailModal.message": "Message",
+        "sendEmailModal.send": "Send",
+        "sendEmailModal.cancel": "Cancel",
+        "comparisonLikePaywall.continue": "Continue",
+        "a11y.skipToContent": "Skip to content",
+        "desktopHeader.homepage": "Homepage",
+        "desktopSearch.searchEvents": "Search events...",
+        "searchLocationTypeahead.placeholder": "Neighborhood, city or zip",
+        "searchLocationTypeahead.searchLocationByCityOrZip": "Search for location by city or zip code",
+        "seo.allEvents": "All events",
+        "seo.eventsIn": "Events in {name}",
+        "seo.topicsEvents": "{name} events",
+        "event.info.only1Host": "{HOST_1}",
+        "eventHome.hostedBy": "Hosted by {HOST_NAMES}",
+        "redesign.components.avatar.ariaLabel": "Photo of the user {memberName}",
+        "EventStickyFooter.shareButton.shareThisEvent": "Share this event",
+        "shareButton.eventShareTitle_v2": "Share",
+        "EventInfoCard.TimeInfo.durationFromDayToDay": "{FROM_DATE} to {END_DATE}",
+        "EventDetailsContainer.details": "Details",
+        "EventHome.relatedTopics": "Related topics",
+        "EventTags.eventsIn": "Events in {name}",
+        "event.descriptionEventAbuseReportLink_v2": "Report event",
+        "relatedEvents.findMoreEventsVariantV2": "You may also like",
+        "relatedEvents.seeAll": "See all",
+        "footer.meetupOnFacebook": "Meetup on Facebook",
+        "footer.meetupOnTwitter": "Meetup on Twitter",
+        "footer.meetupOnYoutube": "Meetup on YouTube",
+        "footer.meetupOnInstagram": "Instagram",
+        "footer.meetupOnTiktok": "TikTok",
+        "footer.thePeoplePlatform": "The <red>people</red> platform",
+        "footer.createYourOwnMeetupGroup": "Create your own Meetup group",
+        "footer.startNewGroup": "Start a new group",
+        "footer.yourAccount": "Your account",
+        "footer.signUp": "Sign up",
+        "footer.logIn": "Log in",
+        "footer.help": "Help",
+        "footer.discover": "Discover",
+        "footer.groups": "Groups",
+        "footer.events": "Events",
+        "footer.topics": "Topics",
+        "footer.cities": "Cities",
+        "footer.onlineEvents": "Online events",
+        "footer.localGuides": "Local guides",
+        "footer.makeFriendsLp": "Make friends",
+        "footer.sitemap": "Sitemap",
+        "footer.meetupText": "Meetup",
+        "footer.about": "About",
+        "footer.blog": "Blog",
+        "footer.meetupPro": "Meetup Pro",
+        "footer.careers": "Careers",
+        "footer.apps": "Apps",
+        "footer.podcast": "Podcast",
+        "footer.followUs": "Follow us",
+        "footer.getTheApp": "Get the app",
+        "mobileDownloadButtons.downloadFromGooglePlay": "Download app from Google Play",
+        "mobileDownloadButtons.downloadFromAppStore": "Download app from App Store",
+        "mobileDownloadButtons.downloadOnStore": "Download on",
+        "footer.meetupYear2": "{YEAR} Bending Spoons US Inc.",
+        "footer.termsOfService": "Terms of service",
+        "footer.privacyPolicy": "Privacy policy",
+        "footer.cookiePolicy": "Cookie policy",
+        "footer.licenseAttribution": "License attribution",
+        "footer.madeWithLoveBy": "Made with {love} by"
+      },
+      "country": "US",
+      "eventId": "313870807",
+      "groupNameLowerCase": "python-stlouis",
+      "event": {
+        "__typename": "Event",
+        "id": "313870807",
+        "token": "313870807",
+        "title": "Python for (Almost) Everything",
+        "description": "Join us at Downtown TREX as we celebrate the 1 year anniversary of PySTL! In this mini conference, we will bring in speakers from industry, researchers, and students to talk about the various ways Python is used. We will cover a broad array of topics such as Web Development, Geospatial, and AI.\n\n**Schedule of Events:**\nTBD\n\n**Partners and Sponsors**\nWe are sponsored by\n\n* [Python Software Foundation](https://www.python.org/psf/community-partners/#psf-community-partners)\n* [Manning Publishing](https://www.manning.com/)\n\nWe partner with\n\n* [St. Louis Code and Coffee](https://www.meetup.com/code-and-coffee-st-louis/),\n* [Bourbon Friday](https://www.meetup.com/bourbonfridays/)\n* [Tech Lunch STL](https://www.heylo.com/g/c45b7312-6acc-4b4f-bc31-a0d92fb74b59)\n* [PyData St. Louis](https://www.meetup.com/pydata-st-louis/)",
+        "eventUrl": "https://www.meetup.com/python-stlouis/events/313870807/",
+        "status": "ACTIVE",
+        "eventType": "PHYSICAL",
+        "featuredEventPhoto": null,
+        "displayPhoto": {
+          "__typename": "PhotoInfo",
+          "id": "533181189",
+          "source": "https://secure.meetupstatic.com/photos/event/5/2/c/5/highres_533181189.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/"
+        },
+        "eventHosts": [
+          {
+            "__typename": "EventHost",
+            "memberId": "469569734",
+            "id": "469569734",
+            "name": "Kevin Lai",
+            "member": {
+              "__typename": "Member",
+              "isSuperOrganizer": false
+            },
+            "memberPhoto": {
+              "__typename": "PhotoInfo",
+              "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+              "id": "323594564"
+            }
+          }
+        ],
+        "dateTime": "2026-06-18T16:00:00-05:00",
+        "endTime": "2026-06-18T19:00:00-05:00",
+        "isFeatured": false,
+        "venue": {
+          "__typename": "Venue",
+          "id": "24945605",
+          "name": "TRex, 911 Washington Ave. St. Louis, MO 63101, Saint Louis, MO",
+          "address": "911 Washington Ave.",
+          "city": "Saint Louis",
+          "state": "MO",
+          "country": "us",
+          "lat": 38.63142,
+          "lng": -90.192993
+        },
+        "maxTickets": 0,
+        "series": null,
+        "rsvps": {
+          "__typename": "RsvpConnection",
+          "totalCount": 0
+        },
+        "waitingCount": {
+          "__typename": "RsvpConnection",
+          "totalCount": 0
+        },
+        "goingCount": {
+          "__typename": "RsvpConnection",
+          "totalCount": 1
+        },
+        "waitlistMode": "AUTO",
+        "guestsAllowed": false,
+        "numberOfAllowedGuests": 0,
+        "proCompleteRsvp": null,
+        "topics": {
+          "__typename": "TopicsConnection",
+          "edges": [
+            {
+              "__typename": "TopicEdge",
+              "node": {
+                "__typename": "Topic",
+                "id": "1015222",
+                "name": "Computer Vision",
+                "urlkey": "computer-vision"
+              }
+            },
+            {
+              "__typename": "TopicEdge",
+              "node": {
+                "__typename": "Topic",
+                "id": "1515085",
+                "name": "Data Analytics",
+                "urlkey": "data-analytics"
+              }
+            },
+            {
+              "__typename": "TopicEdge",
+              "node": {
+                "__typename": "Topic",
+                "id": "27142",
+                "name": "Geospatial",
+                "urlkey": "geospatial"
+              }
+            },
+            {
+              "__typename": "TopicEdge",
+              "node": {
+                "__typename": "Topic",
+                "id": "917242",
+                "name": "Python Web Development",
+                "urlkey": "python-web-development"
+              }
+            }
+          ]
+        },
+        "rsvpSettings": {
+          "__typename": "RsvpOpenSettings",
+          "rsvpOpenTime": null,
+          "rsvpCloseTime": null
+        },
+        "covidPrecautions": {
+          "__typename": "CovidPrecautions",
+          "masks": null,
+          "vaccinations": null,
+          "details": null,
+          "venueType": null
+        },
+        "isNetworkEvent": false,
+        "hosts": [
+          {
+            "__typename": "EventHost",
+            "memberId": "469569734",
+            "id": "469569734",
+            "name": "Kevin Lai",
+            "member": {
+              "__typename": "Member",
+              "isSuperOrganizer": false
+            },
+            "memberPhoto": {
+              "__typename": "PhotoInfo",
+              "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+              "id": "323594564"
+            }
+          }
+        ],
+        "feeSettings": null,
+        "networkEvent": null,
+        "speakerDetails": null,
+        "socialProofInsights": {
+          "__typename": "SocialProofInsights",
+          "isTrendingEvent": false,
+          "totalInterestedUsers": 43,
+          "interestedUsersSample": [
+            {
+              "__typename": "Member",
+              "id": "266425255",
+              "name": "Larry",
+              "memberPhoto": {
+                "__typename": "PhotoInfo",
+                "id": "318387861",
+                "source": "https://secure.meetupstatic.com/photos/member/6/c/d/5/highres_318387861.jpeg",
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+              }
+            },
+            {
+              "__typename": "Member",
+              "id": "271726839",
+              "name": "walter Holley III",
+              "memberPhoto": {
+                "__typename": "PhotoInfo",
+                "id": "283975165",
+                "source": "https://secure.meetupstatic.com/photos/member/d/7/7/d/highres_283975165.jpeg",
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+              }
+            },
+            {
+              "__typename": "Member",
+              "id": "336374567",
+              "name": "Prakash Joshi",
+              "memberPhoto": {
+                "__typename": "PhotoInfo",
+                "id": "321614069",
+                "source": "https://secure.meetupstatic.com/photos/member/3/6/f/5/highres_321614069.jpeg",
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+              }
+            },
+            {
+              "__typename": "Member",
+              "id": "12578088",
+              "name": "Aaron Sumner",
+              "memberPhoto": {
+                "__typename": "PhotoInfo",
+                "id": "308909846",
+                "source": "https://secure.meetupstatic.com/photos/member/7/4/9/6/highres_308909846.jpeg",
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+              }
+            },
+            {
+              "__typename": "Member",
+              "id": "464895364",
+              "name": "Greih Murray",
+              "memberPhoto": {
+                "__typename": "PhotoInfo",
+                "id": "322230811",
+                "source": "https://secure.meetupstatic.com/photos/member/7/8/5/b/highres_322230811.jpeg",
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+              }
+            },
+            {
+              "__typename": "Member",
+              "id": "9405780",
+              "name": "Jonathan S",
+              "memberPhoto": {
+                "__typename": "PhotoInfo",
+                "id": "324500949",
+                "source": "https://secure.meetupstatic.com/photos/member/5/1/d/5/highres_324500949.jpeg",
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+              }
+            },
+            {
+              "__typename": "Member",
+              "id": "467647012",
+              "name": "Troy Soileau",
+              "memberPhoto": {
+                "__typename": "PhotoInfo",
+                "id": "322785895",
+                "source": "https://secure.meetupstatic.com/photos/member/b/3/4/7/highres_322785895.jpeg",
+                "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+              }
+            }
+          ]
+        },
+        "group": {
+          "__typename": "Group",
+          "id": "38086663",
+          "name": "PySTL",
+          "isPrivate": false,
+          "timezone": "America/Chicago",
+          "link": "https://www.meetup.com/python-stlouis",
+          "joinMode": "OPEN",
+          "topicCategory": {
+            "__typename": "TopicCategory",
+            "id": "546",
+            "name": "Technology",
+            "urlkey": "technology"
+          },
+          "topics": [
+            {
+              "__typename": "Topic",
+              "id": "1064",
+              "urlkey": "python",
+              "name": "Python"
+            },
+            {
+              "__typename": "Topic",
+              "id": "27142",
+              "urlkey": "geospatial",
+              "name": "Geospatial"
+            },
+            {
+              "__typename": "Topic",
+              "id": "120095",
+              "urlkey": "software-development",
+              "name": "Software Development"
+            }
+          ],
+          "urlname": "python-stlouis",
+          "country": "us",
+          "state": "MO",
+          "city": "Saint Louis",
+          "needsPhoto": null,
+          "proNetwork": {
+            "__typename": "ProNetwork",
+            "id": "610554310475497472",
+            "urlname": "python-software-foundation-meetups",
+            "name": "Python Software Foundation Meetup Pro Network",
+            "link": "https://www.meetup.com/pro/python-software-foundation-meetups/"
+          },
+          "featuredEvent": null,
+          "stats": {
+            "__typename": "GroupStats",
+            "memberCounts": {
+              "__typename": "GroupMemberCounts",
+              "all": 240
+            }
+          },
+          "needsQuestions": null,
+          "duesSettings": null,
+          "questions": [],
+          "sponsors": {
+            "__typename": "ProGroupSponsorsConnection",
+            "edges": []
+          },
+          "groupPhoto": {
+            "__typename": "PhotoInfo",
+            "id": "533181189",
+            "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/",
+            "source": "https://secure.meetupstatic.com/photos/event/5/2/c/5/highres_533181189.jpeg"
+          },
+          "status": "PAID",
+          "isInCumulativeImpactTreatment": false
+        },
+        "sponsoredUntil": null,
+        "komootUrl": null,
+        "timezone": "America/Chicago",
+        "waiting": 0,
+        "timeStatus": "UPCOMING",
+        "host": {
+          "__typename": "EventHost",
+          "memberId": "469569734",
+          "id": "469569734",
+          "name": "Kevin Lai",
+          "member": {
+            "__typename": "Member",
+            "isSuperOrganizer": false
+          },
+          "memberPhoto": {
+            "__typename": "PhotoInfo",
+            "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+            "id": "323594564"
+          }
+        },
+        "currency": "USD"
+      },
+      "__APOLLO_STATE__": {
+        "PhotoInfo:533181189": {
+          "__typename": "PhotoInfo",
+          "id": "533181189",
+          "highResUrl": "https://secure.meetupstatic.com/photos/event/5/2/c/5/highres_533181189.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-events/"
+        },
+        "PhotoInfo:323594564": {
+          "__typename": "PhotoInfo",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/",
+          "id": "323594564"
+        },
+        "EventHost:469569734": {
+          "__typename": "EventHost",
+          "memberId": "469569734",
+          "name": "Kevin Lai",
+          "member": {
+            "__typename": "Member",
+            "isSuperOrganizer": false
+          },
+          "memberPhoto": {
+            "__ref": "PhotoInfo:323594564"
+          },
+          "id": "469569734"
+        },
+        "Venue:24945605": {
+          "__typename": "Venue",
+          "id": "24945605",
+          "name": "TRex, 911 Washington Ave. St. Louis, MO 63101, Saint Louis, MO",
+          "address": "911 Washington Ave.",
+          "city": "Saint Louis",
+          "state": "MO",
+          "country": "us",
+          "lat": 38.63142,
+          "lon": -90.192993
+        },
+        "Topic:1015222": {
+          "__typename": "Topic",
+          "id": "1015222",
+          "name": "Computer Vision",
+          "urlkey": "computer-vision"
+        },
+        "Topic:1515085": {
+          "__typename": "Topic",
+          "id": "1515085",
+          "name": "Data Analytics",
+          "urlkey": "data-analytics"
+        },
+        "Topic:27142": {
+          "__typename": "Topic",
+          "id": "27142",
+          "name": "Geospatial",
+          "urlkey": "geospatial"
+        },
+        "Topic:917242": {
+          "__typename": "Topic",
+          "id": "917242",
+          "name": "Python Web Development",
+          "urlkey": "python-web-development"
+        },
+        "PhotoInfo:318387861": {
+          "__typename": "PhotoInfo",
+          "id": "318387861",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/6/c/d/5/highres_318387861.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+        },
+        "Member:266425255": {
+          "__typename": "Member",
+          "id": "266425255",
+          "name": "Larry",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:318387861"
+          }
+        },
+        "PhotoInfo:283975165": {
+          "__typename": "PhotoInfo",
+          "id": "283975165",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/d/7/7/d/highres_283975165.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+        },
+        "Member:271726839": {
+          "__typename": "Member",
+          "id": "271726839",
+          "name": "walter Holley III",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:283975165"
+          }
+        },
+        "PhotoInfo:321614069": {
+          "__typename": "PhotoInfo",
+          "id": "321614069",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/3/6/f/5/highres_321614069.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+        },
+        "Member:336374567": {
+          "__typename": "Member",
+          "id": "336374567",
+          "name": "Prakash Joshi",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:321614069"
+          }
+        },
+        "PhotoInfo:308909846": {
+          "__typename": "PhotoInfo",
+          "id": "308909846",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/7/4/9/6/highres_308909846.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+        },
+        "Member:12578088": {
+          "__typename": "Member",
+          "id": "12578088",
+          "name": "Aaron Sumner",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:308909846"
+          }
+        },
+        "PhotoInfo:322230811": {
+          "__typename": "PhotoInfo",
+          "id": "322230811",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/7/8/5/b/highres_322230811.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+        },
+        "Member:464895364": {
+          "__typename": "Member",
+          "id": "464895364",
+          "name": "Greih Murray",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:322230811"
+          }
+        },
+        "PhotoInfo:324500949": {
+          "__typename": "PhotoInfo",
+          "id": "324500949",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/5/1/d/5/highres_324500949.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+        },
+        "Member:9405780": {
+          "__typename": "Member",
+          "id": "9405780",
+          "name": "Jonathan S",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:324500949"
+          }
+        },
+        "PhotoInfo:322785895": {
+          "__typename": "PhotoInfo",
+          "id": "322785895",
+          "highResUrl": "https://secure.meetupstatic.com/photos/member/b/3/4/7/highres_322785895.jpeg",
+          "baseUrl": "https://secure-content.meetupstatic.com/images/classic-member/"
+        },
+        "Member:467647012": {
+          "__typename": "Member",
+          "id": "467647012",
+          "name": "Troy Soileau",
+          "memberPhoto": {
+            "__ref": "PhotoInfo:322785895"
+          }
+        },
+        "TopicCategory:546": {
+          "__typename": "TopicCategory",
+          "id": "546",
+          "name": "Technology",
+          "urlkey": "technology"
+        },
+        "Topic:1064": {
+          "__typename": "Topic",
+          "id": "1064",
+          "urlkey": "python",
+          "name": "Python"
+        },
+        "Topic:120095": {
+          "__typename": "Topic",
+          "id": "120095",
+          "urlkey": "software-development",
+          "name": "Software Development"
+        },
+        "ProNetwork:610554310475497472": {
+          "__typename": "ProNetwork",
+          "id": "610554310475497472",
+          "urlname": "python-software-foundation-meetups",
+          "name": "Python Software Foundation Meetup Pro Network",
+          "link": "https://www.meetup.com/pro/python-software-foundation-meetups/"
+        },
+        "Group:38086663": {
+          "__typename": "Group",
+          "id": "38086663",
+          "name": "PySTL",
+          "isPrivate": false,
+          "timezone": "America/Chicago",
+          "link": "https://www.meetup.com/python-stlouis",
+          "joinMode": "OPEN",
+          "topicCategory": {
+            "__ref": "TopicCategory:546"
+          },
+          "activeTopics": [
+            {
+              "__ref": "Topic:1064"
+            },
+            {
+              "__ref": "Topic:27142"
+            },
+            {
+              "__ref": "Topic:120095"
+            }
+          ],
+          "urlname": "python-stlouis",
+          "country": "us",
+          "state": "MO",
+          "city": "Saint Louis",
+          "needsPhoto": null,
+          "proNetwork": {
+            "__ref": "ProNetwork:610554310475497472"
+          },
+          "featuredEvent": null,
+          "stats": {
+            "__typename": "GroupStats",
+            "memberCounts": {
+              "__typename": "GroupMemberCounts",
+              "all": 240
+            }
+          },
+          "needsQuestions": null,
+          "duesSettings": null,
+          "questions": [],
+          "sponsors": {
+            "__typename": "ProGroupSponsorsConnection",
+            "edges": []
+          },
+          "keyGroupPhoto": {
+            "__ref": "PhotoInfo:533181189"
+          },
+          "status": "PAID",
+          "isInCumulativeImpactTreatment": false
+        },
+        "Event:313870807": {
+          "__typename": "Event",
+          "id": "313870807",
+          "token": "313870807",
+          "title": "Python for (Almost) Everything",
+          "description": "Join us at Downtown TREX as we celebrate the 1 year anniversary of PySTL! In this mini conference, we will bring in speakers from industry, researchers, and students to talk about the various ways Python is used. We will cover a broad array of topics such as Web Development, Geospatial, and AI.\n\n**Schedule of Events:**\nTBD\n\n**Partners and Sponsors**\nWe are sponsored by\n\n* [Python Software Foundation](https://www.python.org/psf/community-partners/#psf-community-partners)\n* [Manning Publishing](https://www.manning.com/)\n\nWe partner with\n\n* [St. Louis Code and Coffee](https://www.meetup.com/code-and-coffee-st-louis/),\n* [Bourbon Friday](https://www.meetup.com/bourbonfridays/)\n* [Tech Lunch STL](https://www.heylo.com/g/c45b7312-6acc-4b4f-bc31-a0d92fb74b59)\n* [PyData St. Louis](https://www.meetup.com/pydata-st-louis/)",
+          "eventUrl": "https://www.meetup.com/python-stlouis/events/313870807/",
+          "status": "ACTIVE",
+          "eventType": "PHYSICAL",
+          "featuredEventPhoto": null,
+          "displayPhoto": {
+            "__ref": "PhotoInfo:533181189"
+          },
+          "eventHosts": [
+            {
+              "__ref": "EventHost:469569734"
+            }
+          ],
+          "dateTime": "2026-06-18T16:00:00-05:00",
+          "endTime": "2026-06-18T19:00:00-05:00",
+          "isFeatured": false,
+          "venue": {
+            "__ref": "Venue:24945605"
+          },
+          "maxTickets": 0,
+          "series": null,
+          "rsvps({\"filter\":{\"rsvpStatus\":[\"WAITLIST\"]}})": {
+            "__typename": "RsvpConnection",
+            "totalCount": 0
+          },
+          "rsvps({\"filter\":{\"rsvpStatus\":[\"YES\"]}})": {
+            "__typename": "RsvpConnection",
+            "totalCount": 1
+          },
+          "waitlistMode": "AUTO",
+          "guestsAllowed": false,
+          "numberOfAllowedGuests": 0,
+          "proCompleteRsvp": null,
+          "topics": {
+            "__typename": "TopicsConnection",
+            "edges": [
+              {
+                "__typename": "TopicEdge",
+                "node": {
+                  "__ref": "Topic:1015222"
+                }
+              },
+              {
+                "__typename": "TopicEdge",
+                "node": {
+                  "__ref": "Topic:1515085"
+                }
+              },
+              {
+                "__typename": "TopicEdge",
+                "node": {
+                  "__ref": "Topic:27142"
+                }
+              },
+              {
+                "__typename": "TopicEdge",
+                "node": {
+                  "__ref": "Topic:917242"
+                }
+              }
+            ]
+          },
+          "rsvpSettings": {
+            "__typename": "RsvpOpenSettings",
+            "rsvpOpenTime": null,
+            "rsvpCloseTime": null
+          },
+          "covidPrecautions": {
+            "__typename": "CovidPrecautions",
+            "masks": null,
+            "vaccinations": null,
+            "details": null,
+            "venueType": null
+          },
+          "isNetworkEvent": false,
+          "feeSettings": null,
+          "networkEvent": null,
+          "speakerDetails": null,
+          "socialProofInsights": {
+            "__typename": "SocialProofInsights",
+            "isTrendingEvent": false,
+            "totalInterestedUsers": 43,
+            "interestedUsersSample": [
+              {
+                "__ref": "Member:266425255"
+              },
+              {
+                "__ref": "Member:271726839"
+              },
+              {
+                "__ref": "Member:336374567"
+              },
+              {
+                "__ref": "Member:12578088"
+              },
+              {
+                "__ref": "Member:464895364"
+              },
+              {
+                "__ref": "Member:9405780"
+              },
+              {
+                "__ref": "Member:467647012"
+              }
+            ]
+          },
+          "group": {
+            "__ref": "Group:38086663"
+          },
+          "sponsoredUntil": null,
+          "komootUrl": null
+        },
+        "ROOT_QUERY": {
+          "__typename": "Query",
+          "event({\"id\":\"313870807\"})": {
+            "__ref": "Event:313870807"
+          }
+        }
+      },
+      "_sentryTraceData": "21b4b528d1a8a3f0b26c10842515ac8d-da77add1520ba4ca-0",
+      "_sentryBaggage": "sentry-environment=production,sentry-release=fcd87fef20a2e1e6a8a4ba835293c26af1bf0bb1,sentry-public_key=5d12cd2317664353456ab4c40d079af2,sentry-trace_id=21b4b528d1a8a3f0b26c10842515ac8d,sentry-org_id=6787,sentry-sampled=false,sentry-sample_rand=0.21444685832110344,sentry-sample_rate=0.1"
+    },
+    "__N_SSP": true
+  },
+  "page": "/[slug]/events/[eventId]",
+  "query": {
+    "slug": "python-stlouis",
+    "eventId": "313870807"
+  },
+  "buildId": "fcd87fef20a2e1e6a8a4ba835293c26af1bf0bb1",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "locale": "en-US",
+  "locales": [
+    "en-US",
+    "en-AU",
+    "de",
+    "de-DE",
+    "es",
+    "es-ES",
+    "fr",
+    "fr-FR",
+    "it",
+    "it-IT",
+    "ja",
+    "ja-JP",
+    "ko",
+    "ko-KR",
+    "nl",
+    "nl-NL",
+    "pl",
+    "pl-PL",
+    "pt",
+    "pt-BR",
+    "ru",
+    "ru-RU",
+    "tr",
+    "tr-TR",
+    "th-TH"
+  ],
+  "defaultLocale": "en-US",
+  "scriptLoader": []
+}

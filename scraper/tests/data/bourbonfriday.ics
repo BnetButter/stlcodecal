@@ -1,0 +1,157 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Meetup//Meetup Calendar 1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+NAME:Bourbon Friday
+X-WR-CALNAME:Bourbon Friday
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:event_313847943@meetup.com
+SEQUENCE:1
+DTSTAMP:20260322T032028Z
+DTSTART;TZID=America/Chicago:20260327T160000
+DTEND;TZID=America/Chicago:20260327T190000
+SUMMARY:Bourbon Friday // Networking & Bourbon Tasting
+DESCRIPTION:Bourbon Friday\nJoin us at Techartista Central West End on Fri
+ day\, March 27th\, for Bourbon Friday\, a weekly social gathering celebrat
+ ing the St. Louis startup scene. Each week\, we come together to share our
+  stories\, struggles\, experiences\, and\, yes\, a little bit of bourbon.\
+ n\n**Mingle & Tastings // 4-7pm**\n\n**Parking & Transportation**\nStreet 
+ parking is available for Bourbon Friday.\nYou may also park in the church 
+ parking lot across the street from TechArtista.\nWe are also only a 1-mile
+  Walk from [Central West End Metro Station](https://www.metrostlouis.org/m
+ etrolink-station/central-west-end-station/).\n\n**========================
+ ========**\n\n**18+ to attend without a parent or legal guardian.**\n**21+
+  and up to drink ... obviously.**\n**Please Drink Responsibly.**\n\n*Under
+ age drinking will result in removal from the event and a permanent ban fro
+ m all future events.*
+URL;VALUE=URI:https://www.meetup.com/bourbonfridays/events/313847943/
+STATUS:CONFIRMED
+CREATED:20260319T065215Z
+LAST-MODIFIED:20260319T065215Z
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313181829@meetup.com
+SEQUENCE:1
+DTSTAMP:20260322T032028Z
+DTSTART;TZID=America/Chicago:20260403T160000
+DTEND;TZID=America/Chicago:20260403T190000
+SUMMARY:Bourbon Friday // Networking & Bourbon Tasting
+DESCRIPTION:Bourbon Friday\nJoin us at Techartista Central West End on Fri
+ day\, April 3rd\, for Bourbon Friday\, a weekly social gathering celebrati
+ ng the St. Louis startup scene. Each week\, we come together to share our 
+ stories\, struggles\, experiences\, and\, yes\, a little bit of bourbon.\n
+ \n**Mingle & Tastings // 4-7pm**\n\n**Parking & Transportation**\nStreet p
+ arking is available for Bourbon Friday.\nYou may also park in the church p
+ arking lot across the street from TechArtista.\nWe are also only a 1-mile 
+ Walk from [Central West End Metro Station](https://www.metrostlouis.org/me
+ trolink-station/central-west-end-station/).\n\n**=========================
+ =======**\n\n**18+ to attend without a parent or legal guardian.**\n**21+ 
+ and up to drink ... obviously.**\n**Please Drink Responsibly.**\n\n*Undera
+ ge drinking will result in removal from the event and a permanent ban from
+  all future events.*
+URL;VALUE=URI:https://www.meetup.com/bourbonfridays/events/313181829/
+STATUS:CONFIRMED
+CREATED:20260203T004234Z
+LAST-MODIFIED:20260203T004234Z
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313181800@meetup.com
+SEQUENCE:1
+DTSTAMP:20260322T032028Z
+DTSTART;TZID=America/Chicago:20260410T160000
+DTEND;TZID=America/Chicago:20260410T190000
+SUMMARY:Bourbon Friday // Networking & Bourbon Tasting
+DESCRIPTION:Bourbon Friday\nJoin us at Techartista UCity on Friday\, April
+  10th\, for Bourbon Friday\, a weekly social gathering celebrating the St.
+  Louis startup scene. Each week\, we come together to share our stories\, 
+ struggles\, experiences\, and\, yes\, a little bit of bourbon.\n\n**Mingle
+  & Tastings // 4-7pm**\n\n**Parking & Transportation**\nThere is a large f
+ ree parking lot on the North side of the Lewis Collaborative.\nWe are also
+  only a 1-mile Walk from the Delmar Loop Station\nor\nOnly a 4-minute Walk
+  from Delmar @ Kingsland Bus Stop\n\n**================================**\
+ n\n**18+ to attend without a parent or legal guardian.**\n**21+ and up to 
+ drink ... obviously.**\n**Please Drink Responsibly.**\n\n*Underage drinkin
+ g will result in removal from the event and a permanent ban from all futur
+ e events.*
+URL;VALUE=URI:https://www.meetup.com/bourbonfridays/events/313181800/
+STATUS:CONFIRMED
+CREATED:20260203T003844Z
+LAST-MODIFIED:20260203T003844Z
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313181878@meetup.com
+SEQUENCE:1
+DTSTAMP:20260322T032028Z
+DTSTART;TZID=America/Chicago:20260417T160000
+DTEND;TZID=America/Chicago:20260417T190000
+SUMMARY:Bourbon Friday // Networking & Bourbon Tasting
+DESCRIPTION:Bourbon Friday\nJoin us at Techartista Central West End on Fri
+ day\, April 17th\, for Bourbon Friday\, a weekly social gathering celebrat
+ ing the St. Louis startup scene. Each week\, we come together to share our
+  stories\, struggles\, experiences\, and\, yes\, a little bit of bourbon.\
+ n\n**Mingle & Tastings // 4-7pm**\n\n**Parking & Transportation**\nStreet 
+ parking is available for Bourbon Friday.\nYou may also park in the church 
+ parking lot across the street from TechArtista.\nWe are also only a 1-mile
+  Walk from [Central West End Metro Station](https://www.metrostlouis.org/m
+ etrolink-station/central-west-end-station/).\n\n**========================
+ ========**\n\n**18+ to attend without a parent or legal guardian.**\n**21+
+  and up to drink ... obviously.**\n**Please Drink Responsibly.**\n\n*Under
+ age drinking will result in removal from the event and a permanent ban fro
+ m all future events.*
+URL;VALUE=URI:https://www.meetup.com/bourbonfridays/events/313181878/
+STATUS:CONFIRMED
+CREATED:20260203T004418Z
+LAST-MODIFIED:20260203T004418Z
+CLASS:PUBLIC
+END:VEVENT
+BEGIN:VEVENT
+UID:event_313181778@meetup.com
+SEQUENCE:1
+DTSTAMP:20260322T032028Z
+DTSTART;TZID=America/Chicago:20260424T160000
+DTEND;TZID=America/Chicago:20260424T190000
+SUMMARY:Bourbon Friday // Networking & Bourbon Tasting
+DESCRIPTION:Bourbon Friday\nJoin us at Techartista UCity on Friday\, April
+  24th\, for Bourbon Friday\, a weekly social gathering celebrating the St.
+  Louis startup scene. Each week\, we come together to share our stories\, 
+ struggles\, experiences\, and\, yes\, a little bit of bourbon.\n\n**Mingle
+  & Tastings // 4-7pm**\n\n**Parking & Transportation**\nThere is a large f
+ ree parking lot on the North side of the Lewis Collaborative.\nWe are also
+  only a 1-mile Walk from the Delmar Loop Station\nor\nOnly a 4-minute Walk
+  from Delmar @ Kingsland Bus Stop\n\n**================================**\
+ n\n**18+ to attend without a parent or legal guardian.**\n**21+ and up to 
+ drink ... obviously.**\n**Please Drink Responsibly.**\n\n*Underage drinkin
+ g will result in removal from the event and a permanent ban from all futur
+ e events.*
+URL;VALUE=URI:https://www.meetup.com/bourbonfridays/events/313181778/
+STATUS:CONFIRMED
+CREATED:20260203T003702Z
+LAST-MODIFIED:20260203T003702Z
+CLASS:PUBLIC
+END:VEVENT
+X-ORIGINAL-URL:https://www.meetup.com/bourbonfridays/events/ical/
+X-WR-CALNAME:Bourbon Friday
+END:VCALENDAR

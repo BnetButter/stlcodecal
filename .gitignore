@@ -1,0 +1,3 @@
+scraper/packages
+__pycache__
+.pytest_cache
