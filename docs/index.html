@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MUI CDN Page</title>
 
   <!-- Material Components Web -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
-  />
+  <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" />
   <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 
   <!-- FullCalendar -->
@@ -41,24 +39,34 @@
       background: white;
       padding: 16px;
       border-radius: 8px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     }
+
     /* Make the title bigger and bold */
     #fc-dom-1 {
-      font-size: 1.5rem;      /* larger text */
-      font-weight: bold;       /* bold */
-      color: #2c3e50;          /* dark blue/gray */
-      text-align: center;      /* center in container */
-      padding: 0.5rem 1rem;    /* some padding around */
-      background-color: #f0f4f8; /* subtle background */
-      border-radius: 0.5rem;   /* rounded corners */
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* soft shadow */
+      font-size: 1.5rem;
+      /* larger text */
+      font-weight: bold;
+      /* bold */
+      color: #2c3e50;
+      /* dark blue/gray */
+      text-align: center;
+      /* center in container */
+      padding: 0.5rem 1rem;
+      /* some padding around */
+      background-color: #f0f4f8;
+      /* subtle background */
+      border-radius: 0.5rem;
+      /* rounded corners */
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      /* soft shadow */
     }
 
     /* Optional: add smooth transition if the title changes */
     #fc-dom-1 {
       transition: all 0.3s ease;
-  }
+    }
+
     /* Mobile */
     @media (max-width: 600px) {
       main {
@@ -71,6 +79,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <!-- Header -->
@@ -90,6 +99,8 @@
   <div id="calendar"></div>
   <!-- Footer -->
   <footer>
+    Last Updated
+    <span id="lastUpdated">03/03/03</span>
     <p>© 2026 PySTL</p>
   </footer>
 
@@ -100,30 +111,55 @@
     // Init Calendar
     document.addEventListener('DOMContentLoaded', function () {
       const calendarEl = document.getElementById('calendar');
-      const headerEl = document.getElementById('fc-dom-1')
+      const headerEl = document.getElementById('fc-dom-1');
+      const lastUpdated = document.getElementById("lastUpdated")
 
-      const calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: 'dayGridMonth',
-        height: "auto",
-        headerToolbar: {
-          left: 'prev,next today',
-          right: 'dayGridMonth,timeGridWeek',
-        },
+      fetch("https://stlcodecal.s3.us-east-2.amazonaws.com/events_latest.json")
+        .then(response => response.json())
+        .then(data => {
+          lastUpdated.innerHTML = data.lastUpdatedPretty
 
-        datesSet: (info) => {
-          headerEl.innerHTML = info.view.title
-        },
- 
-        events: [
-          { title: 'Python Meetup', date: '2026-03-10' },
-          { title: 'AI Workshop', date: '2026-03-14' },
-          { title: 'Hackathon', date: '2026-03-21' }
-        ]
-      });
+          const eventsJson = data.events
 
-      calendar.render();
+          console.log(eventsJson)
+          
+          const events = []
+          for (const eventName in eventsJson) {
+            const eventDetailsList = eventsJson[eventName]
+            for (const eventDetails of eventDetailsList) {
+              console.log(eventDetails)
+                  events.push({
+                    title: eventName,
+                    start: eventDetails.start,
+                    end: eventDetails.end,
+                  })
+            }
+          }
+
+          console.log(events)
+
+          const calendar = new FullCalendar.Calendar(calendarEl, {
+            initialView: 'dayGridMonth',
+            height: "auto",
+            headerToolbar: {
+              left: 'prev,next today',
+              right: 'dayGridMonth,timeGridWeek',
+            },
+
+            datesSet: (info) => {
+              headerEl.innerHTML = info.view.title
+            },
+            events
+          });
+
+          calendar.render();
+
+        })
+
+
     });
   </script>
 
 </body>
+
 </html>

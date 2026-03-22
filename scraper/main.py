@@ -20,20 +20,19 @@ logger = logging.getLogger()
 def main():
     s3 = boto3.Session(profile_name=os.environ.get("AWS_PROFILE")).client("s3")
     bucket_name = "stlcodecal"
-    object_key = "meetups.json"
-        
-    try:
-        # Get the object
-        response = s3.get_object(Bucket=bucket_name, Key=object_key)
-        
-        # Read the body and decode to string
-        json_content = response['Body'].read().decode('utf-8')
 
-        # Parse JSON into a Python dictionary
-        data = json.loads(json_content)
-        
-    except Exception as e:
-        logger.error("Error reading file:", e)
+    url = "https://bnetbutter.github.io/stlcodecal/meetups.json" 
+    try:
+        response = requests.get(url)
+        response.raise_for_status()  # raise error if request failed
+
+        # Parse JSON into Python dict/list
+        data = response.json()  # requests can parse JSON directly
+
+        logger.info(f"Loaded meetups: {data}")
+
+    except requests.exceptions.RequestException as e:
+        logger.error(f"Error fetching JSON: {e}")
     
     now = datetime.now(central)
     pretty_now = now.strftime("%m/%d/%Y %I:%M %p")
