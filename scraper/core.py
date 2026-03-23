@@ -58,14 +58,25 @@ def pull_event_from_url(url) -> dict:
 def get_event_data_from_raw_json_from_event_url(data: dict) -> dict:
     event = data["props"]["pageProps"]["event"]
 
+    eventHosts = event["eventHosts"]
+    eventHost = None
+    eventHostPhoto = None
+    if eventHosts:
+        eventHost =  event["eventHosts"][0]["name"]
+        try:
+            eventHostPhoto = event["eventHosts"][0]["memberPhoto"]["baseUrl"] + event["eventHosts"][0]["memberPhoto"]["id"],
+        except:
+            pass
+    
+
     return {
         "venue": event.get("venue"),
         "going": event["goingCount"]["totalCount"],
         "title": event["title"],
         "description": event["description"],
         "eventPhoto": event["featuredEventPhoto"]["source"] if event["featuredEventPhoto"] else None,
-        "eventHost": event["eventHosts"][0]["name"],
-        "eventHostPhoto": event["eventHosts"][0]["memberPhoto"]["baseUrl"] + event["eventHosts"][0]["memberPhoto"]["id"],
+        "eventHost": eventHost,
+        "eventHostPhoto": eventHostPhoto,
         "start": event["dateTime"],
         "end": event["endTime"],
         "url": event["eventUrl"],

@@ -38,3 +38,45 @@ def test_get_event_data_from_raw_json_from_event_url_pystl():
         data = json.load(fp)
 
     result = core.get_event_data_from_raw_json_from_event_url(data)
+    assert "venue" in result
+    assert "going" in result
+    assert "title" in result
+    assert "description" in result
+    assert "eventPhoto" in result
+    assert "eventHost" in result
+    assert "eventHostPhoto" in result
+    assert "start" in result
+    assert "end" in result
+    assert "url" in result
+
+def test_get_event_data_from_raw_json_from_event_url_pydata():
+    with open("tests/data/pydata_data.json") as fp:
+        data = json.load(fp)
+
+    result = core.get_event_data_from_raw_json_from_event_url(data)
+    assert "venue" in result
+    assert "going" in result
+    assert "title" in result
+    assert "description" in result
+    assert "eventPhoto" in result
+    assert "eventHost" in result
+    assert "eventHostPhoto" in result
+    assert "start" in result
+    assert "end" in result
+    assert "url" in result
+
+def test_get_event_data_from_raw_json_from_event_url_dc314():
+    with open("tests/data/dc314_data.json") as fp:
+        data = json.load(fp)
+
+    result = core.get_event_data_from_raw_json_from_event_url(data)
+    assert "venue" in result
+    assert "going" in result
+    assert "title" in result
+    assert "description" in result
+    assert "eventPhoto" in result
+    assert "eventHost" in result
+    assert "eventHostPhoto" in result
+    assert "start" in result
+    assert "end" in result
+    assert "url" in result
